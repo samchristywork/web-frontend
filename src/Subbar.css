@@ -1,0 +1,47 @@
+.subbar {
+    padding-left: 1rem;
+  display: flex;
+  background: linear-gradient(
+      0deg,
+      var(--subbar-shadow) 0%,
+      var(--subbar-color) 30%,
+      var(--subbar-color) 80%,
+      var(--subbar-color) 100%
+  );
+}
+
+.subbar-menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.subbar-link {
+  text-decoration: none;
+  padding: 1rem;
+}
+
+.subbar-item {
+  font-size: .75rem;
+  padding: .4rem;
+  white-space: nowrap;
+}
+
+.subbar-item * {
+  padding: .4rem;
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.subbar-item *:hover {
+  background: linear-gradient(
+      0deg,
+      var(--subbar-light) 0%,
+      var(--subbar-light) 10%,
+      var(--subbar-light) 80%,
+      var(--subbar-light) 100%
+  );
+  text-decoration: underline;
+}
