@@ -82,8 +82,8 @@ const Tags = () => {
 const RecentPosts = () => {
   const location = useLocation();
 
-  const post0=Post("2023-04-24.html");
-  const post1=Post("2023-04-23.html");
+  const post0=Post("2023-04-24");
+  const post1=Post("2023-04-23");
 
   return <div>
     <br />
