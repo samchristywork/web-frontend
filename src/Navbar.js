@@ -51,7 +51,7 @@ const Navbar = () => {
         <li className="navbar-item" style={{width: "3rem"}}>
           <span style={{position: "relative"}}>
             <span style={{position: "absolute", top: "80%", left: "-0.5rem"}}>
-              <a href="https://github.com/samchristywork"><img className="navbar-image" src="./images/rss.svg"></img></a>
+              <a href="/rss.xml"><img className="navbar-image" src="./images/rss.svg"></img></a>
             </span>
           </span>
         </li>
