@@ -13,7 +13,7 @@ This is an incomplete website frontend written in React. I think it is mostly
 usable, but I never actually used it for production because I got busy and went
 on to work on other things.
 
-<img src="./assets/screenshot.png" width=250></img>
+<img src="./assets/screenshot.png"></img>
 
 Please also note that this repository may require files from
 [web-backend](https://github.com/samchristywork/web-backend) and
